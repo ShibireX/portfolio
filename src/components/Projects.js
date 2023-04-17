@@ -17,6 +17,10 @@ export const Projects = () => {
       breakpoint: { max: 3000, min: 1024 },
       items: 3
     },
+    laptop: {
+      breakpoint: { max: 2000, min: 1024},
+      items: 2
+    },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2

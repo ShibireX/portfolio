@@ -196,6 +196,10 @@ span.navbar-text {
   border-right: 0.08em solid #d8d8d8;
 }
 
+.txt-rotate {
+  will-change: transform;
+}
+
 /************ Skills Css ************/
 .skill {
   position: relative;
@@ -254,7 +258,7 @@ span.navbar-text {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 60%;
+  width: 40%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -352,7 +356,7 @@ span.navbar-text {
   letter-spacing: 0.8px;
 }
 .project-slider {
-  width: 80%;
+  width: 100%;
   margin: 600px auto;
   position: relative;
 }

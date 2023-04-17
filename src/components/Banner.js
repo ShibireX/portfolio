@@ -11,16 +11,18 @@ export const Banner = () => {
   const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Hi! I am Andreas.", "¡Hola! Soy Andreas.", "Hej! Jag heter Andreas.", 
-  "안녕하세요! 제 이름은 안드레아스." ];
+  "안녕하세요! 제 이름은 안드레아스입니다." ];
   const period = 1000;
 
   useEffect(() => {
-    let ticker = setInterval(() => {
+    let timeoutId;
+    const ticker = () => {
       tick();
-    }, delta);
-
-    return () => { clearInterval(ticker) };
-  }, [text])
+      timeoutId = setTimeout(ticker, delta);
+    };
+    timeoutId = setTimeout(ticker, delta);
+    return () => clearTimeout(timeoutId);
+  }, [text]);
 
 
   const tick = () => {
@@ -60,7 +62,7 @@ export const Banner = () => {
               "안녕하세요! 제 이름은 안드레아스" ]'><span className="wrap">{text}</span></span></h1>
                 <p>Welcome to my portfolio! I am glad you found your way here. I am currently studying Media Technology engineering at KTH in Stockholm, whilst working on a student
                   developer team in the video streaming industry. I have a passion for visual aesthetics, music and complex code, and many different areas of interest. If you want to 
-                  get to know me better, feel free to scroll down!</p>
+                  get to know me better, feel free to scroll down or press the links up to the right!</p>
               </div>}
             </TrackVisibility>
           </Col>

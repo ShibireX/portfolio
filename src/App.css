@@ -154,7 +154,7 @@ span.navbar-text {
 }
 .banner h1 {
   height: 130px;
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -228,65 +228,24 @@ span.navbar-text {
   width: 40%;
   margin: 0 auto 20px auto;
 }
-#css img {
-  transform: scaleY(1.25) scaleX(1.05);
-}
-#css h5 {
-  margin-top: 30px;
-}
-#figma img {
-  transform: scale(0.7);
-  margin-top: -40px;
-}
-#figma h5 {
-  margin-top: -32px;
-}
-#unity h5 {
-  margin-top: 20px;
-}
+
 #unity img {
   filter: brightness(400%);
 }
-#aftereffects img {
-  transform: scale(2.1);
-  margin-top: 40px;
-}
-#aftereffects h5 {
-  margin-top: 50px;
-}
-#photoshop img {
-  transform: scale(0.95);
-  margin-top: 8px;
-}
-#photoshop h5 {
-  margin-top: 17px;
-}
-#python img {
-  margin-top: 10px;
-}
-#python h5 {
-  margin-top: 13px;
-}
-#csharp img {
-  margin-top: 15px;
-  transform: scale(1.85);
-}
-#csharp h5 {
-  margin-top: 13px;
-}
-
-
 /************ Projects Css ************/
 .project {
-  padding: 800px 0;
+  padding: 200px 0;
   position: relative;
   z-index: 1;
   margin-top: -180px;
+  text-align: center;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  margin-top: 100px;
 }
 .project p {
   color: #B8B8B8;
@@ -295,7 +254,7 @@ span.navbar-text {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 60%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -392,13 +351,38 @@ span.navbar-text {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+.project-slider {
+  width: 80%;
+  margin: 600px auto;
+  position: relative;
+}
+.project-slider .react-multiple-carousel__arrow--left,
+.project-slider .react-multiple-carousel__arrow--right {
+  background-color: transparent;
+  border: none;
+}
+.project-slider .item h5 {
+  width: 100%;
+  margin: auto auto 20px auto;
+  font-size: 28px;
+}
+.project-slider .item .git {
+  border: 1px solid rgba(255, 255, 255, 0.582);
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  transition: background 0.3s ease-in-out;
+  display: inline-block;
+  margin-top: -10px;
+}
+.project-slider .item .git:hover {
+  background: rgb(255 255 255 / 10%);
+  cursor: pointer;
+}
+.project-slider a {
+  text-decoration: none;
+  width: 200px;
+  display: inline;
 }
 
 /************ Projects Css ************/

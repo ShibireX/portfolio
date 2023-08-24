@@ -119,13 +119,43 @@ export const Projects = () => {
       <canvas ref={canvasRef} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: -1 }}></canvas>
               <div className="proj-bx">
                 <h2>Projects</h2>
+                <h4>Spotlight</h4>
                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme project-slider">
                             <div className="item">
                                 <h5>Facial Expression Recognition</h5>
-                                <p>A live machine learning model that can make real-time predictions on expressions through your webcam. The project was realized 
+                                <p>A live machine learning model that can make real-time predictions on facial expressions through the webcam. The project was realized 
                                   in the beginning of 2023.
                                 </p>
                                 <a href="https://github.com/ShibireX/facial-expression-recognition" target="_blank"><p className="git">Github Repository</p></a>
+                            </div>
+                            <div className="item">
+                                <h5>MusiQuiz</h5>
+                                <p>A fun and engaging iOS music quiz application powered by the Spotify Web API.
+                                   Users can test their musical knowledge across different genres and artists, with two main quiz types.
+                                    Developed during the summer of 2023 as a passion project.
+                                </p>
+                                <a href="https://www.youtube.com/watch?v=-LdOlLU9EDc" target="_blank"><p className="git">Demo Video</p></a>
+                            </div>
+                            <div className="item">
+                                <h5>Spotimy</h5>
+                                <p>An iOS application that utilizes the Spotify Web API in order to retrieve and present user insights,
+                                   such as top artists, top tracks, top genres and track recommendations. The time scope of the data provided can be changed by the user, ranging from days to years of statistics.
+                                    Developed during the summer of 2023 as a passion project.
+                                </p>
+                                <a href="https://github.com/ShibireX/spotimy" target="_blank"><p className="git">Github Repository</p></a>
+                            </div>
+                            <div className="item">
+                                <h5>Bulletin Board</h5>
+                                <p>A bulletin board app prototype that was created as part of a HCI project, aiming to alleviate communication bottlenecks at 
+                                  a local preschool. The project was realized in the spring of 2022.
+                                </p>
+                                <a href="https://www.figma.com/proto/7WJRo3Y6vEtJ8zxQd6g3Rd/HCI-Project?node-id=604-1975&starting-point-node-id=604%3A1975" target="_blank"><p className="git">Figma Prototype</p></a>
+                            </div>
+                            <div className="item">
+                                <h5>Turf Wars</h5>
+                                <p>A video game developed as part of a game design project during the spring of 2023. All assets are self composed.
+                                </p>
+                                <a href="https://mowdacious-farmers.mwagner.se/" target="_blank"><p className="git">Demo Website</p></a>
                             </div>
                             <div className="item">
                                 <h5>Haptic Music</h5>
@@ -136,25 +166,24 @@ export const Projects = () => {
                                 <a href="https://github.com/ShibireX/haptic-music" target="_blank"><p className="git">Github Repository</p></a>
                             </div>
                             <div className="item">
-                                <h5>Molecule Syntax</h5>
-                                <p>A computer science project that provides a structure for checking if a molecule is on the correct format, with the help of a syntax tree.
-                                  The structure also enables drawing of the input molecules. The project was realized during the fall of 2022.
+                                <h5>Spotify Artist Predictor</h5>
+                                <p>A website that uses the Spotify API and prompt engineering to predict which artist a user is thinking about.
                                 </p>
-                                <a href="https://github.com/ShibireX/molecule-syntax" target="_blank"><p className="git">Github Repository</p></a>
+                                <a href="https://shibirex.pythonanywhere.com/" target="_blank"><p className="git">Demo Website</p></a>
                             </div>
                             <div className="item">
-                                <h5>ParkSafe</h5>
-                                <p>A car parking management system extended with a GUI as part of an individual project in a python programming course.
-                                  The project was realized in the spring of 2022.
+                                <h5>Tide Water Simulation</h5>
+                                <p>A CGI project that simulates tide water with day & night cycles, utilizing assets modelled in Blender and logic constructed
+                                  in Unity.
                                 </p>
-                                <a href="https://github.com/ShibireX/parksafe-gui" target="_blank"><p className="git">Github Repository</p></a>
+                                <a href="https://github.com/ShibireX/tide-water-simulation" target="_blank"><p className="git">Demo Website</p></a>
                             </div>
                             <div className="item">
-                                <h5>Bulletin Board</h5>
-                                <p>A bulletin board app prototype that was created as part of a HCI project, aiming to alleviate communication bottlenecks at 
-                                  a local preschool. The project was realized in the spring of 2022.
+                                <h5>Memory Game</h5>
+                                <p>An Arduino + Processing project where sensors and actuators are programmed between a server and client node in order to
+                                  allow for an interactive game installation. 
                                 </p>
-                                <a href="https://www.figma.com/proto/7WJRo3Y6vEtJ8zxQd6g3Rd/HCI-Project?node-id=604-1975&starting-point-node-id=604%3A1975" target="_blank"><p className="git">Figma Prototype</p></a>
+                                <a href="https://github.com/ShibireX/sensor-programming" target="_blank"><p className="git">Github Repository</p></a>
                             </div>
                 </Carousel>
             </div>

@@ -8,6 +8,7 @@ import figma from "../assets/img/figma_logo_transparent.png";
 import unity from "../assets/img/unity_logo.png";
 import photoshop from "../assets/img/photoshop_logo_transparent.png";
 import aftereffects from "../assets/img/ae_logo_transparent.png";
+import swift from "../assets/img/swift_logo.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useState, useEffect } from 'react';
@@ -56,6 +57,10 @@ export const Skills = () => {
                             <div className="item" id="python">
                                 <img src={python} alt="Image" />
                                 <h5>Python</h5>
+                            </div>
+                            <div className="item" id="swift">
+                                <img src={swift} alt="Image" />
+                                <h5>Swift</h5>
                             </div>
                             <div className="item" id="csharp">
                                 <img src={csharp} alt="Image" />

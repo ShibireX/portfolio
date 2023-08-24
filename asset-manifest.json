@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.768f9fda.css",
-    "main.js": "/portfolio/static/js/main.4ded6e36.js",
+    "main.js": "/portfolio/static/js/main.e1ec0544.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
     "static/media/media_banner.png": "/portfolio/static/media/media_banner.f848f64a149439336734.png",
     "static/media/cute_robot.png": "/portfolio/static/media/cute_robot.361e016fc0a1e97c5daa.png",
@@ -10,6 +10,7 @@
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/csharp_logo_transparent.png": "/portfolio/static/media/csharp_logo_transparent.2c7d6854bd3b2cf47638.png",
     "static/media/unity_logo.png": "/portfolio/static/media/unity_logo.1a2a1bfb57780639162f.png",
+    "static/media/swift_logo.png": "/portfolio/static/media/swift_logo.f4ce5d0b2c3f73974719.png",
     "static/media/python_logo_transparent.png": "/portfolio/static/media/python_logo_transparent.70756025cd74c09ce876.png",
     "static/media/html_logo.png": "/portfolio/static/media/html_logo.fcf59f8163ec40853f4f.png",
     "static/media/cplus_logo.png": "/portfolio/static/media/cplus_logo.59fe94899270a2fb7d15.png",
@@ -25,11 +26,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "main.768f9fda.css.map": "/portfolio/static/css/main.768f9fda.css.map",
-    "main.4ded6e36.js.map": "/portfolio/static/js/main.4ded6e36.js.map",
+    "main.e1ec0544.js.map": "/portfolio/static/js/main.e1ec0544.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.768f9fda.css",
-    "static/js/main.4ded6e36.js"
+    "static/js/main.e1ec0544.js"
   ]
 }

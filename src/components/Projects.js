@@ -121,7 +121,7 @@ export const Projects = () => {
           <div key={index} className={`project-item ${project.language}`}>
             <h5>{project.title}</h5>
             <p>{project.description}</p>
-            <a href={project.link} target="_blank"><p className="git">Learn More</p></a>
+            <a href={project.link} target="_blank" rel="noreferrer"><p className="git">Learn More</p></a>
           </div>
         ))}
       </div>

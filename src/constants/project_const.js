@@ -59,4 +59,22 @@ export const projects = [
       language: 'opensource',
       link: 'https://github.com/Eyevinn/chaos-stream-proxy',
     },
+    {
+      title: 'Sheltered',
+      description: 'A game demo showcasing the powerful Unreal Engine 5 and my approach to developing an immersive story based game within it. The game uses pipeline technology such as NVIDIA Omniverse AUDIO2FACE and Epic Metahuman. All animations are handmade.',
+      language: 'gamedev',
+      link: 'https://www.youtube.com/watch?v=N8vYpSQ1zkE',
+    },
+    {
+      title: 'Chaos Stream Proxy Orchestrator',
+      description: 'A microservice to orchestrate chaos stream proxy instances (OSAAS), running within a Kubernetes cluster.',
+      language: 'opensource',
+      link: 'https://api-chaos-stream.stage.osaas.io/docs/static/index.html'
+    },
+    {
+      title: 'Global History',
+      description: 'A dynamic website built with Spline and React, for fun interactive learning of historic events all around the world.',
+      language: 'webdev spotlight',
+      link: 'https://matdrox.github.io/global-history/'
+    },
   ];

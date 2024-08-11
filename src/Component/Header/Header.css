@@ -1,0 +1,29 @@
+.Header {
+    height: 5vh;
+}
+
+.HeaderLinks {
+    padding-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.HeaderLinks p {
+    font-size: 0.95vw;
+    background: -webkit-linear-gradient(
+        270deg,
+        #c9c9c9 0%,
+        #c9c9c9 50%, 
+        #858585 80%, 
+        #858585 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: filter 0.3s ease-in-out;
+}
+
+.HeaderLinks p:hover {
+    cursor: pointer;
+    filter: brightness(2)
+}

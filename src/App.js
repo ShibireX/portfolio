@@ -1,19 +1,27 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+import React, { useRef } from 'react';
+import Header from './Component/Header/Header';
+import Banner from './Component/Banner/Banner';
+import AboutMe from './Component/AboutMe/AboutMe';
+import Spotlight from './Component/Spotlight/Spotlight';
 
 function App() {
+  const aboutMeRef = useRef(null);
+  const spotlightRef = useRef(null);
+
+  const scrollToSection = (sectionRef) => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="App">
-      <NavBar />
+      <Header 
+        scrollToAboutMe={() => scrollToSection(aboutMeRef)}
+        scrollToSpotlight={() => scrollToSection(spotlightRef)}
+      />
       <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
+      <AboutMe ref={aboutMeRef} />
+      <Spotlight ref={spotlightRef} />
     </div>
   );
 }

@@ -1,5 +1,97 @@
 
-.Spotlight {
-    background-color: rgb(35, 59, 59);
-    height: 100vh;
+
+.SpotlightSectionHeader {
+    width: 27vw;
+    height: 10vh;
+    background: linear-gradient(to right, #3FC500, #090909);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.SpotlightSectionHeader p {
+    margin-left: 1.5vw;
+    font-size: 3vw;
+    background: -webkit-linear-gradient(
+        0deg,
+        #005618,  
+        #090909
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.SpotlightContainer {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SpotlightCarouselContainer {
+    background-color: gray;
+    width: 45%;
+    padding-bottom: 25.3125%;
+    position: relative;
+    border-radius: 0.5vw;
+}
+
+.SpotlightCarouselContainer img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+#backgroundImg {
+    width: 210%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+    z-index: -1;
+    opacity: 0.3;
+    zoom: 1000%;
+}
+
+.NavButtons {
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavButton {
+    background-color: #C9C9C9;
+    opacity: 0.5;
+    width: 2.3%;
+    height: 80%;
+    margin: 0 1%;
+    border-radius: 100%;
+}
+
+.SpotlightTextContainer {
+    width: 45%;
+}
+
+.SpotlightTextContainer h1 {
+    font-size: 3.75vw;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+.SpotlightTextContainer h2 {
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.SpotlightTextContainer h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    text-decoration: underline;
 }

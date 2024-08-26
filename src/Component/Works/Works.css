@@ -1,0 +1,30 @@
+
+.WorksSectionHeader {
+    width: 27vw;
+    height: 10vh;
+    background: linear-gradient(to right, #0400CB, #090909);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.WorksSectionHeader p {
+    margin-left: 1.5vw;
+    font-size: 3vw;
+    background: -webkit-linear-gradient(
+        0deg,
+        #030172,  
+        #090909
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.WorksContainer {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}

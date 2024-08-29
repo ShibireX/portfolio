@@ -4,10 +4,12 @@ import { useInView } from "react-intersection-observer";
 import "./Spotlight.css"
 import rentzPromo from "../../Asset/img/rentzPromo.png"
 import faceRecog from "../../Asset/img/faceRecog.png"
+import gaffBannerQR from "../../Asset/img/gaffBannerQR.png"
 
 const images = [
+    { src: gaffBannerQR, title: "Gaff has launched!", description: "Gaff is a social app I have been working on as a founding engineer for the past year. Gaff is all about changing the psychology of calling, making it easier and more fun to talk to your friends on a daily basis. In short, Gaff is the future of calling!" },
+    { src: faceRecog, title: "Recognize your emotions!", description: "A facial expression recognition model capable of live emotion classification through web camera. The model leverages the Google FaceMesh pipeline to accurately map different points of interest on the human face to different emotions" },
     { src: rentzPromo, title: "Listen to our music!", description: "We have been producing music under the alias Rentz for almost 10 years now. If you enjoy EDM or simply are curious about us, feel free to have a listen or two" },
-    { src: faceRecog, title: "Emotion recognition", description: "A facial expression recognition model capable of live emotion classification through web camera. The model leverages the Google FaceMesh pipeline to accurately map different points of interest on the human face to different emotions" },
   ];
 
 const Spotlight = forwardRef((props, ref) => {
@@ -38,12 +40,6 @@ const Spotlight = forwardRef((props, ref) => {
        reset: true 
     });
 
-    const bgImageTransitions = useSpring({
-        opacity: 0.5,
-        from: { opacity: 0 },
-        reset: true 
-     });
-
     const handleNavButtonClick = (index) => {
         setCurrentIndex(index);
     };
@@ -55,7 +51,6 @@ const Spotlight = forwardRef((props, ref) => {
             </div>
             <animated.div className="SpotlightContainer" style={onAppearAnimations} ref={inViewRef}>
                 <div className="SpotlightCarouselContainer">
-                    <animated.img style={bgImageTransitions} src={images[currentIndex].src} id="backgroundImg"></animated.img>
                     <animated.img style={imageTransitions} src={images[currentIndex].src}></animated.img>
                     <div className="NavButtons">
                         {images.map((_, index) => (

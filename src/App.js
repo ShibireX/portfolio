@@ -5,11 +5,13 @@ import Banner from './Component/Banner/Banner';
 import AboutMe from './Component/AboutMe/AboutMe';
 import Spotlight from './Component/Spotlight/Spotlight';
 import Works from './Component/Works/Works';
+import Contact from './Component/Contact/Contact';
 
 function App() {
   const aboutMeRef = useRef(null);
   const spotlightRef = useRef(null);
   const worksRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
@@ -21,11 +23,13 @@ function App() {
         scrollToAboutMe={() => scrollToSection(aboutMeRef)}
         scrollToSpotlight={() => scrollToSection(spotlightRef)}
         scrollToWorks={() => scrollToSection(worksRef)}
+        scrollToContact={() => scrollToSection(contactRef)}
       />
       <Banner />
       <AboutMe ref={aboutMeRef} />
       <Spotlight ref={spotlightRef} />
       <Works ref={worksRef} />
+      <Contact ref={contactRef} />
     </div>
   );
 }

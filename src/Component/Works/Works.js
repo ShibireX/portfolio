@@ -1,7 +1,8 @@
-import { forwardRef, useState } from "react";
+import { forwardRef } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
 import "./Works.css"
+import { projects } from "../../Constant/project_const"
 
 const Works = forwardRef((props, ref) => {
 
@@ -22,7 +23,17 @@ const Works = forwardRef((props, ref) => {
                 <p>works</p>
             </div>
             <animated.div className="WorksContainer" style={onAppearAnimations} ref={inViewRef}>
-                
+                {projects.map((project, index) => (
+                    <div className="WorksProject" key={index}>
+                        <h2>{project.title}</h2>
+                        <div className="WorksProjectType">
+                            <h3>{project.language}</h3>
+                            <img src={project.srcImage}></img>
+                        </div>
+                        <h4>{project.description}</h4>
+                        <h5>Learn more</h5>
+                    </div>
+                ))}
             </animated.div>
         </div>
 )});

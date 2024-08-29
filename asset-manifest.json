@@ -1,36 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8568f47.css",
-    "main.js": "/portfolio/static/js/main.3e99a091.js",
-    "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/media_banner.png": "/portfolio/static/media/media_banner.f848f64a149439336734.png",
-    "static/media/cute_robot.png": "/portfolio/static/media/cute_robot.361e016fc0a1e97c5daa.png",
-    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/csharp_logo_transparent.png": "/portfolio/static/media/csharp_logo_transparent.2c7d6854bd3b2cf47638.png",
-    "static/media/unity_logo.png": "/portfolio/static/media/unity_logo.1a2a1bfb57780639162f.png",
-    "static/media/swift_logo.png": "/portfolio/static/media/swift_logo.f4ce5d0b2c3f73974719.png",
-    "static/media/python_logo_transparent.png": "/portfolio/static/media/python_logo_transparent.70756025cd74c09ce876.png",
-    "static/media/html_logo.png": "/portfolio/static/media/html_logo.fcf59f8163ec40853f4f.png",
-    "static/media/cplus_logo.png": "/portfolio/static/media/cplus_logo.59fe94899270a2fb7d15.png",
-    "static/media/javascript_logo.png": "/portfolio/static/media/javascript_logo.bac4039b76ca7484abeb.png",
-    "static/media/css_logo.png": "/portfolio/static/media/css_logo.7ffc984f6a5b67ceb125.png",
-    "static/media/figma_logo_transparent.png": "/portfolio/static/media/figma_logo_transparent.8e1d80e82acdff0b51d2.png",
-    "static/media/ae_logo_transparent.png": "/portfolio/static/media/ae_logo_transparent.54d27c2df16a9d7abc82.png",
-    "static/media/photoshop_logo_transparent.png": "/portfolio/static/media/photoshop_logo_transparent.1c34140e78151550327c.png",
-    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/spotify_icon.svg": "/portfolio/static/media/spotify_icon.53a8fc1009a0c4269a67da84a90514ed.svg",
+    "main.css": "/portfolio/static/css/main.a332494b.css",
+    "main.js": "/portfolio/static/js/main.9e515485.js",
+    "static/js/787.e02c0aaf.chunk.js": "/portfolio/static/js/787.e02c0aaf.chunk.js",
+    "static/media/gaffBannerQR.png": "/portfolio/static/media/gaffBannerQR.445221a7091007117284.png",
+    "static/media/rentzPromo.png": "/portfolio/static/media/rentzPromo.468bae8e08f9e38bbf8e.png",
+    "static/media/rgbTrinity.png": "/portfolio/static/media/rgbTrinity.7ddf0af6894ff9916628.png",
+    "static/media/faceRecog.png": "/portfolio/static/media/faceRecog.9975a320e953db3ff8eb.png",
+    "static/media/educationIcon.png": "/portfolio/static/media/educationIcon.6e68670c9b1bc97c042b.png",
+    "static/media/languageIcon.png": "/portfolio/static/media/languageIcon.460aabdb6f4bd28d2df5.png",
+    "static/media/codeIcon.png": "/portfolio/static/media/codeIcon.9bd8dfbf175eb158e83d.png",
+    "static/media/csharpLogo.png": "/portfolio/static/media/csharpLogo.25b8f7ff48ea4dc04056.png",
     "index.html": "/portfolio/index.html",
-    "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
-    "main.b8568f47.css.map": "/portfolio/static/css/main.b8568f47.css.map",
-    "main.3e99a091.js.map": "/portfolio/static/js/main.3e99a091.js.map",
-    "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
+    "main.a332494b.css.map": "/portfolio/static/css/main.a332494b.css.map",
+    "main.9e515485.js.map": "/portfolio/static/js/main.9e515485.js.map",
+    "787.e02c0aaf.chunk.js.map": "/portfolio/static/js/787.e02c0aaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8568f47.css",
-    "static/js/main.3e99a091.js"
+    "static/css/main.a332494b.css",
+    "static/js/main.9e515485.js"
   ]
 }

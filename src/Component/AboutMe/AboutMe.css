@@ -46,6 +46,15 @@
     bottom: 70%;
 }
 
+.AboutMeGridItem u {
+    transition: filter 0.3s ease-in-out;
+}
+
+.AboutMeGridItem u:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
 #music {
     width: 20%;
 }

@@ -5,6 +5,10 @@ import githubLogo from "../../Asset/img/githubLogo.png";
 import linkedinLogo from "../../Asset/img/linkedinLogo.png";
 import "./Contact.css"
 
+const openSocialsLink = (link) => {
+    window.open(link);
+};
+
 const Contact = forwardRef((props, ref) => {
 
     const { ref: inViewRef, inView } = useInView({
@@ -28,8 +32,8 @@ const Contact = forwardRef((props, ref) => {
                 <div className="ContactRightContainer">
                     <h2>Socials</h2>
                     <div className="ContactIcons">
-                        <img className="ContactIcon" src={githubLogo}/>
-                        <img className="ContactIcon" src={linkedinLogo}/>
+                        <img className="ContactIcon" src={githubLogo} onClick={() => openSocialsLink("https://github.com/ShibireX")}/>
+                        <img className="ContactIcon" src={linkedinLogo} onClick={() => openSocialsLink("https://www.linkedin.com/in/andreas-garcia-9516a5155/")}/>
                     </div>
                 </div>
             </animated.div>

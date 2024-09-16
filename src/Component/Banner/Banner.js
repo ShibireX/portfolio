@@ -1,6 +1,7 @@
 import "./Banner.css"
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
+import { useState } from "react";
 import rgbTrinity from "../../Asset/img/rgbTrinity.png"
 
 function Banner() {
@@ -16,6 +17,24 @@ function Banner() {
       config: { tension: 100, friction: 20 },
   });
 
+  const AnimatedImage = ({ src, alt }) => {
+    const [isLoaded, setIsLoaded] = useState(false);
+    
+    const animationProps = useSpring({
+      opacity: isLoaded ? 1 : 0,
+      transform: isLoaded ? 'translateY(0)' : 'translateY(20px)',
+      config: { tension: 100, friction: 20 },
+    });
+  
+    return (
+      <animated.img
+        src={src}
+        alt={alt}
+        style={animationProps}
+        onLoad={() => setIsLoaded(true)}
+      />
+    );
+  };
 
   return (
     <animated.div className="Banner" style={onAppearAnimations} ref={inViewRef}>
@@ -32,7 +51,7 @@ function Banner() {
       </div>
 
       <div className="BannerImageContainer">
-          <img src={rgbTrinity}></img>
+          <AnimatedImage src={rgbTrinity}></AnimatedImage>
       </div>
 
     </animated.div>

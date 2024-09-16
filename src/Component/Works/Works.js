@@ -4,6 +4,10 @@ import { useInView } from "react-intersection-observer";
 import "./Works.css"
 import { projects } from "../../Constant/project_const"
 
+const openWorksRef = (link) => {
+    window.open(link);
+};
+
 const Works = forwardRef((props, ref) => {
 
     const { ref: inViewRef, inView } = useInView({
@@ -31,7 +35,7 @@ const Works = forwardRef((props, ref) => {
                             <img src={project.srcImage}></img>
                         </div>
                         <h4>{project.description}</h4>
-                        <h5>Learn more</h5>
+                        <h5 onClick={() => openWorksRef(project.link)}>Learn more</h5>
                     </div>
                 ))}
             </animated.div>

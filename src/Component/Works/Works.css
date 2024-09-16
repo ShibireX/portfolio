@@ -57,6 +57,13 @@
     font-weight: 500;
     margin: 0;
     text-decoration: underline;
+    transition: filter 0.3s ease-in-out;
+    width: 25%;
+}
+
+.WorksProject h5:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
 }
 
 .WorksProjectType {

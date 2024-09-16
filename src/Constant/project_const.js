@@ -8,6 +8,13 @@ import typescriptLogo from "../Asset/img/typescriptLogo.png"
 
 export const projects = [
   {
+    title: 'Gaff',
+    description: 'Gaff is an app that I co-founded and built, aiming to change the psychology of calling. Working on this startup has given me invaluable experience within many different expertises',
+    language: 'iOS Development',
+    srcImage: swiftLogo,
+    link: 'https://apps.apple.com/se/app/gaff-talk-with-friends-daily/id1644599803',
+  },
+  {
     title: 'Facial Expression Recognition',
     description: 'A live machine learning model that predicts facial expressions in real-time through the webcam, developed in early 2023',
     language: 'Machine Learning',

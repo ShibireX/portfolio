@@ -39,5 +39,12 @@
 
 .ContactIcon {
     width: 15%;
-    margin-left: 2%;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: filter 0.3s ease-in-out;
+}
+
+.ContactIcon:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
 }

@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 6%;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .ContactContainer h2 {
@@ -34,7 +34,7 @@
 
 .ContactIcons {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .ContactIcon {

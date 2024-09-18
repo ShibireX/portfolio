@@ -5,6 +5,7 @@ import { useState } from "react";
 import rgbTrinity from "../../Asset/img/rgbTrinity.png"
 
 function Banner() {
+  const [isLoaded, setIsLoaded] = useState(false);
   
   const { ref: inViewRef, inView } = useInView({
     triggerOnce: true,
@@ -12,13 +13,12 @@ function Banner() {
   });
 
   const onAppearAnimations = useSpring({
-      opacity: inView ? 1 : 0,
-      transform: inView ? "translateY(0px)" : "translateY(20px)",
+      opacity: inView & isLoaded ? 1 : 0,
+      transform: inView & isLoaded ? "translateY(0px)" : "translateY(20px)",
       config: { tension: 100, friction: 20 },
   });
 
   const AnimatedImage = ({ src, alt }) => {
-    const [isLoaded, setIsLoaded] = useState(false);
     
     const animationProps = useSpring({
       opacity: isLoaded ? 1 : 0,

@@ -22,6 +22,13 @@ export const projects = [
     link: 'https://github.com/ShibireX/facial-expression-recognition',
   },
   {
+    title: 'Pokémon TCG Scanner',
+    description: 'A free, open-source TCG scanner designed to help enthusiasts efficiently manage their collections and monitor card values, with the help of OCR technology',
+    language: 'iOS Development',
+    srcImage: swiftLogo,
+    link: 'https://github.com/ShibireX/pokemon-tcg-scanner',
+  },
+  {
     title: 'MusiQuiz',
     description: 'An engaging iOS music quiz app powered by the Spotify Web API, where users test their musical knowledge across genres and artists. Developed as a passion project in summer 2023',
     language: 'iOS Development',

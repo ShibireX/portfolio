@@ -22,19 +22,21 @@
 }
 
 .WorksContainer {
-    height: 90vh;
-    justify-content: center;
+    justify-content: space-around;
     align-items: top;
     display: grid;
     grid-template-columns: repeat(3, 25%);
-    gap: 6%;
-    margin: 8% 0;
+    margin: 3% 2%;
 }
 
 .WorksProject h2 {
     font-size: 1.95vw;
     font-weight: 500;
     margin-bottom: 1%;
+}
+
+.WorksProject {
+    margin-top: 10%;
 }
 
 .WorksProject h3 {

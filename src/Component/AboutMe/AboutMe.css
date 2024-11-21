@@ -22,8 +22,10 @@
 }
 
 .AboutMeContainer {
+    position: relative;
     height: 90vh;
     align-content: center;
+    top: 2vh;
 }
 
 .AboutMeGrid {

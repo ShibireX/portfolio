@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     title: 'Facial Expression Recognition',
-    description: 'A live machine learning model that predicts facial expressions in real-time through the webcam, developed in early 2023',
+    description: 'A live machine learning model that predicts facial expressions in real-time through the webcam, developed in early 2023 as part of a university project at KTH',
     language: 'Machine Learning',
     srcImage: pythonLogo,
     link: 'https://github.com/ShibireX/facial-expression-recognition',
@@ -44,7 +44,7 @@ export const projects = [
   },
   {
     title: 'Turf Wars',
-    description: 'A video game created as part of a game design project in spring 2023, featuring all self-composed assets',
+    description: 'A video game created as part of a game design project at KTH during spring 2023, featuring all self-composed assets',
     language: 'Game Development',
     srcImage: csharpLogo,
     link: 'https://mowdacious-farmers.mwagner.se/',
@@ -58,14 +58,14 @@ export const projects = [
   },
   {
     title: 'Tide Water Simulation',
-    description: 'A CGI project simulating tide water with day and night cycles, using assets modeled in Blender and logic constructed in Unity',
+    description: 'A CGI project simulating tide water with day and night cycles, using assets modeled in Blender and logic constructed in Unity as part of a CGI course at KTH during spring 2023',
     language: 'Game Development',
     srcImage: csharpLogo,
     link: 'https://github.com/ShibireX/tide-water-simulation',
   },
   {
     title: 'Memory Game',
-    description: 'An Arduino and Processing project creating an interactive game installation with sensors and actuators, programmed between server and client nodes',
+    description: 'An Arduino and Processing project creating an interactive game installation with sensors and actuators, programmed between server and client nodes. Built as part of a sensor programming course at KTH during spring 2023',
     language: 'Electronics',
     srcImage: cplusLogo,
     link: 'https://github.com/ShibireX/sensor-programming',
@@ -93,7 +93,7 @@ export const projects = [
   },
   {
     title: 'Global History',
-    description: 'A dynamic website built with Spline and React for interactive learning of historic events worldwide. Designed for fun and educational engagement',
+    description: 'A dynamic website built with Spline and React for interactive learning of historic events worldwide. Designed for fun and educational engagement. Built as part of a web development course at KTH during fall 2024',
     language: 'Web Development',
     srcImage: javascriptLogo,
     link: 'https://matdrox.github.io/global-history/',

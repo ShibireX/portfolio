@@ -26,6 +26,17 @@
     max-width: 27vw;
 }
 
+.loaded {
+    transform: rotate(0deg);
+    transition: transform 1.6s ease-in-out;
+}
+
+
+.unloaded {
+    transform: rotate(-160deg) scale(0);
+    transition: transform 1.6s ease-in-out;
+}
+
 .BannerImageContainer img {
     width: 100%;
 }

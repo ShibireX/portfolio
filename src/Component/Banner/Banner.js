@@ -50,7 +50,7 @@ function Banner() {
       </h2>
       </div>
 
-      <div className="BannerImageContainer">
+      <div className={`BannerImageContainer ${isLoaded ? "loaded" : "unloaded"}`}>
           <AnimatedImage src={rgbTrinity}></AnimatedImage>
       </div>
 

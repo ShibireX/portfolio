@@ -36,6 +36,13 @@ export const projects = [
     link: 'https://www.youtube.com/watch?v=-LdOlLU9EDc',
   },
   {
+    title: 'AR Escape Room',
+    description: 'An augmented reality escape room game developed in Unity with AR Foundation, featuring puzzles and challenges to escape the room. Created as part of a KTH course during fall 2024',
+    language: 'Game Development',
+    srcImage: csharpLogo,
+    link: 'https://github.com/ShibireX/escape-room-ar',
+  },
+  {
     title: 'Spotimy',
     description: 'An iOS app utilizing the Spotify Web API to provide user insights like top artists, tracks, genres, and recommendations, with customizable data ranges. Created in summer 2023',
     language: 'iOS Development',

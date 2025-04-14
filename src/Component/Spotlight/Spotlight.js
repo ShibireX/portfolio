@@ -2,10 +2,10 @@ import { forwardRef, useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
 import "./Spotlight.css"
-import rentzPromo from "../../Asset/img/rentzPromo.png"
-import faceRecog from "../../Asset/img/faceRecog.png"
-import gaffBannerQR from "../../Asset/img/gaffBannerQR.png"
-import nusWallpaper from "../../Asset/img/nusWallpaper.png"
+import rentzPromo from "../../Asset/img/rentzPromo.avif"
+import faceRecog from "../../Asset/img/faceRecog.avif"
+import gaffBannerQR from "../../Asset/img/gaffBannerQR.avif"
+import nusWallpaper from "../../Asset/img/nusWallpaper.avif"
 
 const images = [
     { src: nusWallpaper, title: "Currently at NUS!", description: "I am currently conducting exchange studies at the National University of Singapore, where I will sharpen my computer science and media technology skills. I look forward to meeting a lot of interesting people and broadening my cultural knowledge, whilst networking with ambitious individuals. If you are in Singapore and have any opportunities that you think would fit my expertise, feel free to reach out!", link: "https://www.nus.edu.sg/" },

@@ -2,7 +2,7 @@ import "./Banner.css"
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
-import rgbTrinity from "../../Asset/img/rgbTrinity.png"
+import rgbTrinity from "../../Asset/img/rgbTrinity.avif"
 
 function Banner() {
   const [isLoaded, setIsLoaded] = useState(false);

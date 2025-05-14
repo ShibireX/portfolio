@@ -8,6 +8,13 @@ import typescriptLogo from "../Asset/img/typescriptLogo.png"
 
 export const projects = [
   {
+    title: 'Fika AI',
+    description: 'A talent pool using AI agents to match candidates with job opportunities, with me as frontend lead. The platform is designed to streamline the hiring process and improve candidate experience',
+    language: 'Web Development',
+    srcImage: javascriptLogo,
+    link: 'https://joinfika.ai/',
+  },
+  {
     title: 'Gaff',
     description: 'Gaff is an app that I co-founded and built, aiming to change the psychology of calling. Working on this startup has given me invaluable experience within many different expertises',
     language: 'iOS Development',

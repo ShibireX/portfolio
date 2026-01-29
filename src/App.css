@@ -1,8 +1,1 @@
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #090909;
-  color: #C9C9C9;
-  font-family: "League Spartan", sans-serif;
-}
+/* App-level styles - Tailwind imported in index.css */

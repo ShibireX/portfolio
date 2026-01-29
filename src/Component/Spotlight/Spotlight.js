@@ -1,7 +1,6 @@
 import { forwardRef, useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
-import "./Spotlight.css"
 import rentzPromo from "../../Asset/img/rentzPromo.avif"
 import faceRecog from "../../Asset/img/faceRecog.avif"
 import gaffBannerQR from "../../Asset/img/gaffBannerQR.avif"
@@ -61,6 +60,7 @@ const Spotlight = forwardRef((props, ref) => {
             alt={alt}
             style={imageTransitions}
             onLoad={() => setIsLoaded(true)}
+            className="w-full h-full absolute object-cover rounded-lg"
           />
         );
       };
@@ -70,29 +70,55 @@ const Spotlight = forwardRef((props, ref) => {
     };
 
     return (
-        <div className="Spotlight" ref={ref}>
-            <div className="SpotlightSectionHeader">
-                <p>spotlight</p>
+        <div ref={ref}>
+            {/* Section Header */}
+            <div className="w-full sm:w-72 md:w-80 lg:w-96 h-16 md:h-20 bg-gradient-to-r from-accent-green to-bg-dark flex items-center">
+                <p className="ml-4 md:ml-6 text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-[#005618] to-bg-dark gradient-text">
+                    spotlight
+                </p>
             </div>
-            <animated.div className="SpotlightContainer" style={onAppearAnimations} ref={inViewRef}>
-                <div className="SpotlightCarouselContainer">
-                    <AnimatedImage src={images[currentIndex].src}></AnimatedImage>
-                    <div className="NavButtons">
+            
+            {/* Content */}
+            <animated.div 
+                className="py-12 md:py-0 px-4 md:px-8 md:h-[90vh] flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12"
+                style={onAppearAnimations} 
+                ref={inViewRef}
+            >
+                {/* Image Carousel */}
+                <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl relative aspect-video rounded-lg">
+                    <AnimatedImage src={images[currentIndex].src} alt={images[currentIndex].title}></AnimatedImage>
+                    
+                    {/* Navigation Dots */}
+                    <div className="absolute bottom-3 left-0 right-0 flex items-center justify-center gap-2">
                         {images.map((_, index) => (
-                            <div
+                            <button
                                 key={index}
-                                className={`NavButton ${currentIndex === index ? "active" : ""}`}
+                                className={`w-2.5 h-2.5 rounded-full transition-opacity duration-300 cursor-pointer ${
+                                    currentIndex === index 
+                                        ? 'bg-text-light opacity-100' 
+                                        : 'bg-text-light opacity-50 hover:opacity-100'
+                                }`}
                                 onClick={() => handleNavButtonClick(index)}
-                            >
-                            </div>
+                                aria-label={`Go to slide ${index + 1}`}
+                            />
                         ))}
                     </div>
                 </div>
 
-                <animated.div style={textTransitions} className="SpotlightTextContainer">
-                    <h1>{images[currentIndex].title}</h1>
-                    <h2>{images[currentIndex].description}</h2>
-                    <h3 onClick={() => openSpotlightRef(images[currentIndex].link)}>Learn more</h3>
+                {/* Text Content */}
+                <animated.div style={textTransitions} className="w-full lg:w-2/5 text-center lg:text-left">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[3.75vw] font-medium mb-2 md:mb-4">
+                        {images[currentIndex].title}
+                    </h1>
+                    <h2 className="text-sm sm:text-base md:text-lg lg:text-[1.7vw] font-normal mb-4 md:mb-6 leading-relaxed">
+                        {images[currentIndex].description}
+                    </h2>
+                    <h3 
+                        onClick={() => openSpotlightRef(images[currentIndex].link)}
+                        className="text-sm sm:text-base md:text-lg lg:text-[1.7vw] font-medium underline cursor-pointer hover:brightness-125 transition-all duration-300 inline-block"
+                    >
+                        Learn more
+                    </h3>
                 </animated.div>
             </animated.div>
         </div>

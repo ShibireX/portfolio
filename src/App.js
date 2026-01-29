@@ -18,14 +18,16 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Header 
-        scrollToAboutMe={() => scrollToSection(aboutMeRef)}
-        scrollToSpotlight={() => scrollToSection(spotlightRef)}
-        scrollToWorks={() => scrollToSection(worksRef)}
-        scrollToContact={() => scrollToSection(contactRef)}
-      />
-      <Banner />
+    <div className="App overflow-x-hidden">
+      <div className="h-screen md:h-auto overflow-hidden flex flex-col md:block">
+        <Header 
+          scrollToAboutMe={() => scrollToSection(aboutMeRef)}
+          scrollToSpotlight={() => scrollToSection(spotlightRef)}
+          scrollToWorks={() => scrollToSection(worksRef)}
+          scrollToContact={() => scrollToSection(contactRef)}
+        />
+        <Banner />
+      </div>
       <AboutMe ref={aboutMeRef} />
       <Spotlight ref={spotlightRef} />
       <Works ref={worksRef} />

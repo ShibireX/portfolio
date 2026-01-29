@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App overflow-x-hidden">
-      <div className="h-screen md:h-auto overflow-hidden flex flex-col md:block">
+      <div className="min-h-[100svh] md:min-h-0 md:h-auto flex flex-col md:block">
         <Header 
           scrollToAboutMe={() => scrollToSection(aboutMeRef)}
           scrollToSpotlight={() => scrollToSection(spotlightRef)}

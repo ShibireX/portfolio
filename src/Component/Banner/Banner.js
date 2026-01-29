@@ -38,7 +38,7 @@ function Banner() {
 
   return (
     <animated.div 
-      className="flex-1 md:flex-none md:h-[95vh] flex flex-col md:flex-row items-center justify-center md:justify-evenly px-6 md:px-12 gap-8 md:gap-4 overflow-hidden"
+      className="flex-1 md:flex-none md:h-[95vh] flex flex-col md:flex-row items-center justify-center md:justify-evenly px-6 md:px-12 gap-6 md:gap-4"
       style={onAppearAnimations} 
       ref={inViewRef}
     >

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f08a8d16.css",
-    "main.js": "/portfolio/static/js/main.ecfef73f.js",
+    "main.css": "/portfolio/static/css/main.d2d7a6a4.css",
+    "main.js": "/portfolio/static/js/main.ae577aa5.js",
     "static/js/787.e02c0aaf.chunk.js": "/portfolio/static/js/787.e02c0aaf.chunk.js",
     "static/media/nusWallpaper.avif": "/portfolio/static/media/nusWallpaper.393e10d7b821373ddb17.avif",
     "static/media/s3Conference.avif": "/portfolio/static/media/s3Conference.bcc2189f80eac5f42894.avif",
@@ -16,12 +16,12 @@
     "static/media/csharpLogo.png": "/portfolio/static/media/csharpLogo.25b8f7ff48ea4dc04056.png",
     "static/media/fikaBanner.avif": "/portfolio/static/media/fikaBanner.2d1e3bf9b780f7672163.avif",
     "index.html": "/portfolio/index.html",
-    "main.f08a8d16.css.map": "/portfolio/static/css/main.f08a8d16.css.map",
-    "main.ecfef73f.js.map": "/portfolio/static/js/main.ecfef73f.js.map",
+    "main.d2d7a6a4.css.map": "/portfolio/static/css/main.d2d7a6a4.css.map",
+    "main.ae577aa5.js.map": "/portfolio/static/js/main.ae577aa5.js.map",
     "787.e02c0aaf.chunk.js.map": "/portfolio/static/js/787.e02c0aaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f08a8d16.css",
-    "static/js/main.ecfef73f.js"
+    "static/css/main.d2d7a6a4.css",
+    "static/js/main.ae577aa5.js"
   ]
 }

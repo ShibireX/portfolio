@@ -22,7 +22,7 @@ const Contact = forwardRef((props, ref) => {
     });
 
     return (
-        <div ref={ref} className="py-8 md:pb-8 md:pt-0">
+        <div ref={ref} className="py-8 md:pb-8 md:pt-12">
             <animated.div 
                 className="h-full flex flex-col md:flex-row justify-between items-center md:items-end px-6 md:px-12 gap-12 md:gap-0"
                 style={onAppearAnimations} 

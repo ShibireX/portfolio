@@ -48,11 +48,10 @@ function Banner() {
           Hi! I am Andreas.
         </h1>
         <h2 className="text-base sm:text-lg md:text-[1.55vw] font-normal mt-4 md:mt-6 mb-0 leading-relaxed">
-          Welcome to my portfolio! I am glad you found your way here. I am currently doing my masters 
-          in Interactive Media Technology at KTH in Stockholm, whilst being a founding iOS engineer 
-          at a startup company. I have a passion for visual aesthetics, music production and code, 
-          and many other different areas of interest. If you want to get to know me better, 
-          feel free to scroll down or press the shortcuts up above!
+        I’m a software engineer focused on building thoughtful, human-centred systems across native 
+        Apple platforms and the web. My work spans iOS and visionOS development, frontend architecture for 
+        AI-driven products, and end-to-end application engineering in real production environments. 
+        I’m drawn to work that sits at the intersection of technology, design, and human experience.
         </h2>
       </div>
 
